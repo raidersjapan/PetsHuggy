@@ -21,6 +21,15 @@ gem 'paperclip', '~> 5.0.0'
 gem 'dropzonejs-rails'
 gem 'figaro'
 gem 'aws-sdk', '~> 2.3'
+gem 'geocoder'
+gem 'jquery-ui-rails'
+gem 'stripe'
+
+gem 'private_pub'
+gem 'thin'
+
+gem 'ransack'
+
 
 group :production do
   gem 'pg'
